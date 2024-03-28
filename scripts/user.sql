@@ -1,0 +1,4 @@
+CREATE USER 'finalyca'@'localhost' IDENTIFIED BY '1234567890';
+GRANT ALL PRIVILEGES ON *.* TO 'finalyca'@'localhost';
+FLUSH PRIVILEGES;
+
