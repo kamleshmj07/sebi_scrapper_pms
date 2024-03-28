@@ -1,0 +1,10 @@
+APP_NAME: 'sebi_pms_scrapper'
+
+TABLE_CREATE: True
+
+# DB_URI: "sqlite:///sebi.db"
+DB_URI: "mysql+pymysql://finalyca:1234567890@localhost/sebi_pms"
+
+HTML_BACKUP: '/opt/finalyca/backup/imported_html'
+
+LOG_DIR: '/opt/finalyca/log'
